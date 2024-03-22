@@ -27,7 +27,7 @@ jobs:
 
       - name: Run the script
         env:
-          XUEHAO: ${{ secrets.XUEHAO }}
+          XUHAO: ${{ secrets.XUHAO }}
           SEATNO: ${{ secrets.SEATNO }}
           MIMA: ${{ secrets.MIMA }}
           PUSHPLUS: ${{ secrets.PUSHPLUS }}
