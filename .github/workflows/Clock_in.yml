@@ -3,7 +3,7 @@ name: Clock_in
 on:
   schedule:
     # 每天早上6点半触发任务，对应UTC时间的22:30
-    - cron: '30 22 * * *'
+    - cron: '25 22 * * *'
   workflow_dispatch:
 
 jobs:
